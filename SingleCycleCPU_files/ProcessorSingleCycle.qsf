@@ -1,0 +1,144 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 1991-2013 Altera Corporation
+# Your use of Altera Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Altera Program License 
+# Subscription Agreement, Altera MegaCore Function License 
+# Agreement, or other applicable license agreement, including, 
+# without limitation, that your use is for the sole purpose of 
+# programming logic devices manufactured by Altera and sold by 
+# Altera or its authorized distributors.  Please refer to the 
+# applicable agreement for further details.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus II 64-Bit
+# Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
+# Date created = 11:56:29  November 21, 2016
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		ProcessorSingleCycle_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus II software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "Cyclone II"
+set_global_assignment -name DEVICE EP2C35F672C6
+set_global_assignment -name TOP_LEVEL_ENTITY CPU
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION "13.0 SP1"
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "11:56:29  NOVEMBER 21, 2016"
+set_global_assignment -name LAST_QUARTUS_VERSION "13.0 SP1"
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR 1
+set_global_assignment -name SIMULATION_MODE FUNCTIONAL
+set_global_assignment -name VECTOR_OUTPUT_FORMAT VWF
+set_global_assignment -name EDA_SIMULATION_TOOL "ModelSim-Altera (Verilog)"
+set_global_assignment -name EDA_OUTPUT_DATA_FORMAT "VERILOG HDL" -section_id eda_simulation
+set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST ON -section_id eda_simulation
+set_global_assignment -name VHDL_FILE bcd.vhd
+set_global_assignment -name VHDL_FILE ram3port.vhd
+set_global_assignment -name VHDL_FILE instmem.vhd
+set_global_assignment -name VHDL_FILE Accadder.vhd
+set_global_assignment -name VHDL_FILE PCregister.vhd
+set_global_assignment -name VHDL_FILE mux.vhd
+set_global_assignment -name VHDL_FILE fetchUnit.vhd
+set_global_assignment -name VHDL_FILE InstructRegister.vhd
+set_global_assignment -name VECTOR_WAVEFORM_FILE fetchTest.vwf
+set_global_assignment -name VHDL_FILE Port3Ram.vhd
+set_global_assignment -name VHDL_FILE SignExt.vhd
+set_global_assignment -name VHDL_FILE RegUnitFetch.vhd
+set_global_assignment -name VHDL_FILE FiveBitmux.vhd
+set_global_assignment -name VHDL_FILE ALU.vhd
+set_global_assignment -name VHDL_FILE OperationALU.vhd
+set_global_assignment -name VHDL_FILE dataMemory.vhd
+set_global_assignment -name VHDL_FILE Datafetch.vhd
+set_global_assignment -name VHDL_FILE CPUController.vhd
+set_global_assignment -name VHDL_FILE CPU.vhd
+set_global_assignment -name VECTOR_WAVEFORM_FILE muxTwoOneTest.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE WaveformtestSignExt.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE WaveformCPUtestOne.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE CPUtestTwo.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE TestRegisterfile.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE TestALU.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE CPUTest3.vwf
+set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
+set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name INCREMENTAL_VECTOR_INPUT_SOURCE "C:/CSC343/Quartus labs/lab8/CPUTest3.vwf"
+set_location_assignment PIN_AF10 -to s1[0]
+set_location_assignment PIN_AB12 -to s1[1]
+set_location_assignment PIN_AC12 -to s1[2]
+set_location_assignment PIN_AD11 -to s1[3]
+set_location_assignment PIN_AE11 -to s1[4]
+set_location_assignment PIN_V14 -to s1[5]
+set_location_assignment PIN_V13 -to s1[6]
+set_location_assignment PIN_V20 -to s2[0]
+set_location_assignment PIN_V21 -to s2[1]
+set_location_assignment PIN_W21 -to s2[2]
+set_location_assignment PIN_Y22 -to s2[3]
+set_location_assignment PIN_AA24 -to s2[4]
+set_location_assignment PIN_AA23 -to s2[5]
+set_location_assignment PIN_AB24 -to s2[6]
+set_location_assignment PIN_AB23 -to s7[0]
+set_location_assignment PIN_V22 -to s7[1]
+set_location_assignment PIN_AC25 -to s7[2]
+set_location_assignment PIN_AC26 -to s7[3]
+set_location_assignment PIN_AB26 -to s7[4]
+set_location_assignment PIN_AB25 -to s7[5]
+set_location_assignment PIN_Y24 -to s7[6]
+set_location_assignment PIN_Y23 -to s8[0]
+set_location_assignment PIN_AA25 -to s8[1]
+set_location_assignment PIN_AA26 -to s8[2]
+set_location_assignment PIN_Y26 -to s8[3]
+set_location_assignment PIN_Y25 -to s8[4]
+set_location_assignment PIN_U22 -to s8[5]
+set_location_assignment PIN_W24 -to s8[6]
+set_location_assignment PIN_U9 -to s5[0]
+set_location_assignment PIN_U1 -to s5[1]
+set_location_assignment PIN_U2 -to s5[2]
+set_location_assignment PIN_T4 -to s5[3]
+set_location_assignment PIN_R7 -to s5[4]
+set_location_assignment PIN_R6 -to s5[5]
+set_location_assignment PIN_T3 -to s5[6]
+set_location_assignment PIN_T2 -to s6[0]
+set_location_assignment PIN_P6 -to s6[1]
+set_location_assignment PIN_P7 -to s6[2]
+set_location_assignment PIN_T9 -to s6[3]
+set_location_assignment PIN_R5 -to s6[4]
+set_location_assignment PIN_R4 -to s6[5]
+set_location_assignment PIN_R3 -to s6[6]
+set_location_assignment PIN_R2 -to s3[0]
+set_location_assignment PIN_P4 -to s3[1]
+set_location_assignment PIN_P3 -to s3[2]
+set_location_assignment PIN_M2 -to s3[3]
+set_location_assignment PIN_M3 -to s3[4]
+set_location_assignment PIN_M5 -to s3[5]
+set_location_assignment PIN_M4 -to s3[6]
+set_location_assignment PIN_L3 -to s4[0]
+set_location_assignment PIN_L2 -to s4[1]
+set_location_assignment PIN_L9 -to s4[2]
+set_location_assignment PIN_L6 -to s4[3]
+set_location_assignment PIN_L7 -to s4[4]
+set_location_assignment PIN_P9 -to s4[5]
+set_location_assignment PIN_N9 -to s4[6]
+set_location_assignment PIN_G26 -to Clk_1
+set_global_assignment -name STRATIX_DEVICE_IO_STANDARD "3.3-V LVTTL"
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

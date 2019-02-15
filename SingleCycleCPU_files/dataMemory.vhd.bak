@@ -1,0 +1,30 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity dataMemory is
+port(
+InAddr : in std_logic_vector(31 downto 0);
+WrData : in std_logic_vector(31 downto 0);
+memWrite, memRead : in std_logic;
+ReadData : out std_logic_vector(31 downto 0);
+);
+end dataMemory;
+
+architecture arch of dataMemory is
+type datamem is array(0 to 4096) of std_logic_vector(31 downto 0);
+signal MData : datamem;
+
+begin
+
+			process(memWrite, memRead)
+			begin
+			if (memWrite='1') then
+			MData(to_integer(unsigned(Inaddr)))<=WrData;
+			end if;
+			if (memRead='1') then
+			ReadData<=MData(to_integer(unsigned(Inaddr)));
+			end if;
+			end process;
+
+
+end arch;

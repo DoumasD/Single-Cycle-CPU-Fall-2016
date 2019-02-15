@@ -1,0 +1,77 @@
+To, Location
+
+
+
+s1[0], PIN_AF10
+s1[1], PIN_AB12
+s1[2], PIN_AC12
+s1[3], PIN_AD11
+s1[4], PIN_AE11
+s1[5], PIN_V14
+s1[6], PIN_V13
+
+
+s2[0], PIN_V20 
+s2[1], PIN_V21
+s2[2], PIN_W21
+s2[3], PIN_Y22
+s2[4], PIN_AA24
+s2[5], PIN_AA23
+s2[6], PIN_AB24
+
+
+s7[0], PIN_AB23
+s7[1], PIN_V22
+s7[2], PIN_AC25
+s7[3], PIN_AC26
+s7[4], PIN_AB26
+s7[5], PIN_AB25
+s7[6], PIN_Y24
+
+
+s8[0], PIN_Y23 
+s8[1], PIN_AA25
+s8[2], PIN_AA26
+s8[3], PIN_Y26
+s8[4], PIN_Y25
+s8[5], PIN_U22
+s8[6], PIN_W24
+
+
+s5[0], PIN_U9 
+s5[1], PIN_U1
+s5[2], PIN_U2
+s5[3], PIN_T4
+s5[4], PIN_R7
+s5[5], PIN_R6
+s5[6], PIN_T3
+
+s6[0], PIN_T2 
+s6[1], PIN_P6
+s6[2], PIN_P7
+s6[3], PIN_T9
+s6[4], PIN_R5
+s6[5], PIN_R4
+s6[6], PIN_R3
+
+
+s3[0], PIN_R2 
+s3[1], PIN_P4
+s3[2], PIN_P3
+s3[3], PIN_M2
+s3[4], PIN_M3
+s3[5], PIN_M5
+s3[6], PIN_M4
+
+s4[0], PIN_L3 
+s4[1], PIN_L2
+s4[2], PIN_L9
+s4[3], PIN_L6
+s4[4], PIN_L7
+s4[5], PIN_P9
+s4[6], PIN_N9
+
+Clk_1,PIN_G26
+
+
+

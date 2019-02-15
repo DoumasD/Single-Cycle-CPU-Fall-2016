@@ -1,0 +1,53 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow Model Setup 'fetchUnit:InstFetchUnit|PCregister:PCReg|pcNew[2]'
+Slack : -10.312
+TNS   : -10.312
+
+Type  : Slow Model Setup 'Clk_1'
+Slack : -6.801
+TNS   : -1233.666
+
+Type  : Slow Model Hold 'Clk_1'
+Slack : -3.427
+TNS   : -317.406
+
+Type  : Slow Model Hold 'fetchUnit:InstFetchUnit|PCregister:PCReg|pcNew[2]'
+Slack : 2.434
+TNS   : 0.000
+
+Type  : Slow Model Minimum Pulse Width 'Clk_1'
+Slack : -1.880
+TNS   : -473.222
+
+Type  : Slow Model Minimum Pulse Width 'fetchUnit:InstFetchUnit|PCregister:PCReg|pcNew[2]'
+Slack : 0.500
+TNS   : 0.000
+
+Type  : Fast Model Setup 'fetchUnit:InstFetchUnit|PCregister:PCReg|pcNew[2]'
+Slack : -4.391
+TNS   : -4.391
+
+Type  : Fast Model Setup 'Clk_1'
+Slack : -2.682
+TNS   : -469.344
+
+Type  : Fast Model Hold 'Clk_1'
+Slack : -1.867
+TNS   : -207.590
+
+Type  : Fast Model Hold 'fetchUnit:InstFetchUnit|PCregister:PCReg|pcNew[2]'
+Slack : 1.107
+TNS   : 0.000
+
+Type  : Fast Model Minimum Pulse Width 'Clk_1'
+Slack : -1.880
+TNS   : -473.222
+
+Type  : Fast Model Minimum Pulse Width 'fetchUnit:InstFetchUnit|PCregister:PCReg|pcNew[2]'
+Slack : 0.500
+TNS   : 0.000
+
+------------------------------------------------------------
