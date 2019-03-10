@@ -1,7 +1,7 @@
 // Demetrios Doumas 2/14/19
 // Single Cycle CPU
 
-Summmary:
+Summary:
 
 In the fall of 2016 semester, I took a class called computer organization, where the semester project was to 
 design a single cycle CPU.

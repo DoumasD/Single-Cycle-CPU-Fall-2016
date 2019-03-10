@@ -1,6 +1,0 @@
-<?xml version="1.0" ?>
-<LOG_ROOT>
-	<PROJECT NAME="ProcessorSingleCycle">
-		<CBX_INST_ENTRY INSTANCE_NAME="|CPU|Datafetch:DATAFETCHUNIT|dataMemory:DM1|altsyncram:MData[0][31]__1" CBX_FILE_NAME="altsyncram_ikd1.tdf"/>
-	</PROJECT>
-</LOG_ROOT>
