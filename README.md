@@ -1,7 +1,7 @@
-Single Cycle CPU          by Demetrios Doumas 2/14/19
+# Single Cycle CPU          by Demetrios Doumas 2/14/19
 
 
-Summary:
+# Description:
 
 In the fall of 2016 semester, I took a class called computer organization, where the semester project was to 
 design a single cycle CPU.
@@ -16,8 +16,7 @@ Software used:
 Quartus -  upload VHDL code to the FPGA device
 ModelSim - used to test VHDL code components of this CPU
 
-
-
+# Installation/Usage
 How to run the single cycle cpu software?
 
 1.) Download the "SingleCycleCPU_files" folder.
@@ -42,5 +41,4 @@ What I learned:
 
 1.) Datapath and Critical path 
 2.) Creating my own instruction set = my own processor.
-3.) Learn to hard code machine code based on instruction set that I created 
-    (format of an instruction for example).
+3.) Learn to hard code machine code based on instruction set that I created (format of an instruction for example).
